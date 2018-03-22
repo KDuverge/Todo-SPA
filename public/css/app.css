@@ -79,3 +79,19 @@ li span {
 li span:hover {
   color: #e74c3c
 }
+
+@media screen and (max-width: 768px){
+	#todoInput {
+		width: 35%;
+		font: 300 20px 'Ubuntu', sans-serif;
+		text-align: center;
+	}
+	.task {
+		font-size: 14px;
+		line-height: 50px;
+		padding: 0 5px;
+	}
+	.list {
+		width: 260px;
+	}
+}
