@@ -18,4 +18,4 @@ app.use("/api/todos", todoRoutes);
 
 app.listen(Port, function(){
   console.log(`Server started on ${Port}...`);
-})
+});
